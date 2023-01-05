@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Blue"
+        android:id="@+id/menuBlue"/>
+
+    <item android:title="yellow"
+        android:id="@+id/menuYellow"/>
+
+    <item android:title="Red"
+        android:id="@+id/menuRed"/>
+
+    <item android:title="Brown"
+        android:id="@+id/menuBrown"/>
+
+    <item android:title="Magenta"
+        android:id="@+id/menuMagenta"/>
+    <item
+        android:title="More Options"
+        android:id="@+id/menuMore">
+        <menu>
+            <item android:title="background 1"
+                android:id="@+id/menubg1"/>
+            <item android:id="@+id/menubg2"
+                android:title="Background 2"/>
+        </menu>
+    </item>
+
+</menu>
